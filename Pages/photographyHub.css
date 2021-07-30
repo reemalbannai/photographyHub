@@ -9,8 +9,14 @@ body{
 
 p{
   font-family: "welcome Web Regular", Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 35px;
   display: inline;
+}
+
+small{
+  font-family: "welcome Web Regular", Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: bolder;
 }
 
 h1 {
@@ -118,4 +124,35 @@ h1 {
 
   grid-column: span 5;
   text-align:center;
+}
+
+#search{
+  background-color: rgb(255, 255, 255);
+  border: 1.5px #000000;
+  border-style: solid;
+
+  font-family: "welcome Web Regular", Arial, Helvetica, sans-serif;
+  align-content: flex-start;
+  font-size: 35px;
+  display: inline;
+}
+
+#searchButton {
+  background-color: rgb(255, 255, 255);
+  border: 1.5px #000000;
+  border-style: solid;
+
+  font-family: "welcome Web Regular", Arial, Helvetica, sans-serif;
+  align-content: flex-start;
+  font-size: 30px;
+  display: inline;
+}
+
+#namesTable{
+  font-family: "welcome Web Regular", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 60px;
+
+  margin-top: 200px;
+  margin-left: 460px;
 }
